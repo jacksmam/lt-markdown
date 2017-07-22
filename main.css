@@ -15,6 +15,7 @@
   padding: 10px 0;
   text-align: center;
   border-bottom: 2px solid #208DC3;
+  cursor: pointer;
 }
 
 .lt-link:hover {
