@@ -18,7 +18,8 @@ window.onload = function () {
       sourceUrl: md
     });
     
-    var url = '/?md=' + encodeURIComponent(md);
+    var path = window.location.pathname || '/';
+    var url = path + '?md=' + encodeURIComponent(md);
     window.history.pushState("test","test",url);
   } 
 
